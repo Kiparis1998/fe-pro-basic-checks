@@ -24,7 +24,7 @@ export function fenceString(string) {
     }
 
     return newString;
-} 
+};
 
 /**
  * Должна быть function expression
@@ -98,7 +98,7 @@ export const consoleLoggerWordsForOf = (string) => {
     for (let letter of string) {
         console.log(letter);
     }
-}
+};
 /**
  Стрелочная
  * @param {string} string
@@ -107,7 +107,7 @@ export const consoleLoggerWordsFor = (string) => {
     for (let i = 0; i < string.length; i++) {
         console.log(string[i]);
     }
-}
+};
 
 /**
  Стрелочная
@@ -119,11 +119,11 @@ export const consoleLoggerWordsWhile = (string) => {
         console.log(string[i]);
         i++;
     }
-}
+};
 /**
  Стрелочная
  * @param {string} string
  */
 export const consoleLoggerWordsSplit = (string) => {
     (string.split("")).forEach((item => console.log(item)));
-}
+};
